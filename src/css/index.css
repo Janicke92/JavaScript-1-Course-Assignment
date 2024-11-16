@@ -1,0 +1,73 @@
+.home-page__content {
+    text-align: center;
+    color: #FBF5FF;
+    text-transform: uppercase;
+  }
+  
+  .welcome {
+    background-image: url(../../assets/images/site-content/gamer-chair.jpg);
+    background-size: 100%;
+    background-position-x: left;
+    min-height: 30vh;
+    max-width: 90vh;
+    background-repeat: no-repeat;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+.home-page__content h1 {
+    font-size: 1.7em;
+    font-weight: 600;
+  }
+  
+  .home-page__content h2 {
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 70px;
+    margin-bottom: 15px;
+  }
+  
+  .genre-image {
+    border-radius: 15px;
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    max-height: 200px;
+    min-height: 100px;
+  }
+  
+  .genre-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: auto;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  .explore-universe {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  
+  .genre-adventure {
+    background-image: linear-gradient(to bottom, rgba(86, 37, 136, 0.8), rgba(37, 12, 62, 0.8)), url(../../assets/images/genres/adventure.jpg);
+  }
+
+  .genre-action  {
+    background-image: linear-gradient(to bottom, rgba(86, 37, 136, 0.8), rgba(37, 12, 62, 0.8)), url(../../assets/images/genres/action.jpg);
+  }
+  
+  .genre-platform  {
+    background-image: linear-gradient(to bottom, rgba(86, 37, 136, 0.8), rgba(37, 12, 62, 0.8)), url(../../assets/images/genres/platform.png);
+  }
+  
+  .genre-sports  {
+    background-image: linear-gradient(to bottom, rgba(86, 37, 136, 0.8), rgba(37, 12, 62, 0.8)), url(../../assets/images/genres/sports.jpg);
+  }
+  
+  .genre-RPG  {
+    background-image: linear-gradient(to bottom, rgba(86, 37, 136, 0.8), rgba(37, 12, 62, 0.8)), url(../../assets/images/genres/RPG.jpg);
+  }

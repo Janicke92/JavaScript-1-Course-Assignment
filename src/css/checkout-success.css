@@ -1,0 +1,28 @@
+.checkout-success {
+    border-radius: 30px;
+    width: 360px;
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .fa-regular.fa-circle-check {
+    font-size: 6em;
+    margin: 50px;
+  }
+  
+  .checkout-success h1 {
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 0px;
+  }
+  
+  .checkout-success h2 {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: 0px;
+  }
+  
+  .checkout-success p {
+    font-size: 0.8em;
+  }

@@ -1,0 +1,26 @@
+.about_main {
+    max-width: 1000px;
+    margin: auto 20px;
+    color: #FBF5FF;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+  }
+  
+  #about_image {
+    max-width: 450px;
+    grid-row: 3;
+    width: 250px;
+    justify-self: end;
+  }
+  
+  #about_headline {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+  
+    font-weight: 500;
+  }

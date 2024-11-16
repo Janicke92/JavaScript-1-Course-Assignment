@@ -1,0 +1,67 @@
+.product-card {
+    max-width: 850px;
+    background-color: rgba(248, 236, 255, 0.8);
+    border: 1px solid #000;
+    border-radius: 25px;
+    margin: 40px 20px;
+  }
+  
+  
+  .product-card img {
+    max-width: 250px;
+    border-radius: 5px;
+    margin: 30px 50px;
+    
+  }
+  
+  #product-page_headline {
+    font-size: 1.8em;
+    margin: 0px 0px 0px 30px;
+  }
+  
+  #console_headline {
+    font-weight: 200;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 30px;
+  }
+  
+  #product-page_price {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 10px 0px 0px 30px;
+  }
+  
+  
+  
+  .product-card_text {
+    margin: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.1em;
+  }
+  
+  .p_bold {
+    font-weight: 500;
+  }
+  
+  #p-bullet {
+    margin: 10px 20px 0px 0px;
+  }
+  
+  .p-bullet_list {
+    margin: 30px 0px 30px 10px;
+  }
+  
+  #quote {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  
+  #game-info {
+    list-style: none;
+    line-height: normal;
+    padding: 0;
+  }

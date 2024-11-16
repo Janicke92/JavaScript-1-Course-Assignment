@@ -1,0 +1,113 @@
+.checkout-main {
+    background-color: rgba(248, 236, 255, 0.8);
+    border: 1px solid #000;
+    border-radius: 25px;
+    width: 340px;
+    max-width: 1000px;
+    margin: 70px auto;
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+  
+  .checkout-main h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  
+  .shopping-cart__section,
+  .price__section {
+    margin: auto;
+  }
+  
+  .shopping-cart_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0px 40px;
+    align-items: center;
+    border-top: 2px solid #250B3E;
+    border-bottom: 2px solid #250B3E;
+    padding: 20px 0px;
+    width: 250px;
+  }
+  
+  .shopping-cart_container img {
+    max-width: 120px;
+    margin: 10px 10px;
+    grid-row: 1/4;
+  }
+  
+  .shopping-cart_container h2 {
+    grid-row: 1;
+    grid-column: 2;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  
+  .shopping-cart_container h2, 
+  p {
+    margin: auto 5px;
+  }
+  
+  #playbox {
+    font-weight: 300;
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+  
+  
+  #shopping-cart__price {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  
+  .price__section {
+    width: 250px;
+  }
+  
+  
+  .price__containers {
+    padding: 20px 0px;
+  }
+  
+  
+  .price__container1 > * {
+    margin-bottom: 0px;
+    font-weight: 500;
+  }
+  
+  .price__container1 h3 {
+    grid-column: 2;
+  }
+  
+  .price__container2,
+  .price__container3 {
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  .price__container1,
+  .price__container2,
+  .price__container3,
+  .price__container4 {
+    border-bottom: 2px solid #250B3E;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 7px;
+  }
+  
+  .column-right {
+    grid-column: 1/2;
+  }
+  
+  .column-left {
+    grid-column: 3/4;
+    justify-self: flex-end;
+  }
+  
+  .discount {
+    color: #76036A;
+  }
