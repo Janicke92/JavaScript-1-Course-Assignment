@@ -66,7 +66,7 @@ function renderProducts(products) {
         productDiv.classList.add("products");
 
         const productLink = document.createElement("a");
-        productLink.href = `/products/?id=${product.id}`;
+        productLink.href = `/products/index.html?id=${product.id}`;
         productLink.textContent = product.title;
 
         const productTitle = document.createElement('h2');
