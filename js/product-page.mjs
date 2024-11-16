@@ -1,8 +1,15 @@
-
-
-
+// Extract the query parameters from the URL
 const urlParams = new URLSearchParams(window.location.search);
-const productId = urlParams.get("id");
+const productId = urlParams.get('id');
+
+if (productId) {
+    // Load product details based on the id
+    console.log(`Product ID: ${productId}`);
+    // Add your logic to fetch and display product details
+} else {
+    console.error('No product ID found in the URL.');
+}
+
 
 /*Function for the add to cart button, pushes the product to the "cart" */
 function addToCart(product) {
