@@ -66,7 +66,7 @@ function renderProducts(products) {
         productDiv.classList.add("products");
 
         const productLink = document.createElement("a");
-        productLink.href = `../products/index.html?id=${product.id}`;
+        productLink.href = `/products/?id=${product.id}`;
         productLink.textContent = product.title;
 
         const productTitle = document.createElement('h2');
@@ -87,66 +87,3 @@ function renderProducts(products) {
 }
 
 fetchProducts();
-
-
-/* PRODUCT PAGE */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*
-fetch("https://v2.api.noroff.dev/gamehub")
-    .then(response => response.json())
-    .then(apiResponse => {
-
-    const firstProduct = apiResponse.data[0]; 
-
-    
-    renderProduct(firstProduct);
-    })
-    .catch(error => {
-        console.error("it didn't work:", error);
-    });
-
-
-function renderProduct(product) {
-    const productDisplay = document.querySelector(".js_products");
-
-    const productCard = document.createElement("div");
-    productCard.classList.add("js_product_card");
-
-    const imageElement = document.createElement("img");
-    imageElement.src = product.image.url;
-    imageElement.alt = product.title;
-    productCard.appendChild(imageElement);
-
- /*
-    const titleElement = document.createElement("h2");
-    const titleLink = document.createElement("a");
-    titleLink.href = `../products/index.html?id=${product.id}`; 
-    titleLink.innerText = product.title;
-    titleElement.appendChild(titleLink);
-    productCard.appendChild(titleElement);
-
-    titleElement.appendChild(titleLink);
-    productCard.appendChild(titleElement)
-
-    const priceElement = document.createElement("p");
-    priceElement.innerText = `$${product.price}`;
-    productCard.appendChild(priceElement);
-
-    productDisplay.appendChild(productCard);
-}  */

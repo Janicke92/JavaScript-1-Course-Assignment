@@ -76,8 +76,6 @@ function renderPriceSection() {
         }
     });
     
-
-    // Append the new button to the container
     checkoutContainer.appendChild(checkoutButton);
 }
 
