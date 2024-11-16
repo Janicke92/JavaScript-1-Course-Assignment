@@ -66,7 +66,11 @@ function renderProducts(products) {
         productDiv.classList.add("products");
 
         const productLink = document.createElement("a");
-        productLink.href = `/products/?id=${product.id}`;
+        
+        // Dynamically detect base path for GitHub Pages or local use
+        const basePath = window.location.origin + window.location.pathname.replace(/index\.html$/, '');
+        productLink.href = `${basePath}products/?id=${product.id}`;
+        
         productLink.textContent = product.title;
 
         const productTitle = document.createElement('h2');
