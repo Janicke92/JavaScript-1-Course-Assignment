@@ -1,0 +1,1 @@
+export const API_URL_GAMEHUB = "https://v2.api.noroff.dev/gamehub"
