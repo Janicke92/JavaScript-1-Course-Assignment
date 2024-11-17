@@ -50,8 +50,8 @@ export function renderProductDetails(product, container) {
     const productPrice = document.createElement("p");
     productPrice.textContent = `Price: $${product.price}`;
 
-    container.appendChild(productTitle);
     container.appendChild(productImage);
+    container.appendChild(productTitle);
     container.appendChild(productDescription);
     container.appendChild(productPrice);
 }

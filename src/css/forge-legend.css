@@ -1,5 +1,6 @@
 .product-card {
     max-width: 850px;
+    min-height: 550px;
     background-color: rgba(248, 236, 255, 0.8);
     border: 1px solid #000;
     border-radius: 25px;
@@ -12,6 +13,20 @@
     border-radius: 5px;
     margin: 30px 50px;
     
+  }
+
+  .product-card h1 {
+    margin: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 2em;
+  }
+
+  .product-card p {
+    margin: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.2em;
   }
   
   #product-page_headline {
@@ -31,6 +46,7 @@
     font-size: 1.5em;
     margin: 10px 0px 0px 30px;
   }
+  
   
   
   

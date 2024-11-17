@@ -29,7 +29,7 @@ function addProductToCart(product) {
 export function RemoveFromCartButton(productId, onRemoveCallback) {
     const button = document.createElement("button");
     button.textContent = "Remove Item";
-    button.classList.add("cta", "cta_checkout");
+    button.classList.add("cta", "cta_checkout", "remove-item-button");
 
     button.addEventListener("click", () => {
         removeProductFromCart(productId);

@@ -24,7 +24,6 @@
   }
   
   .shopping-cart_container {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin: 0px 40px;
@@ -110,4 +109,9 @@
   
   .discount {
     color: #76036A;
+  }
+
+  .remove-item-button {
+    font-size: 1em;
+    font-weight: 300;
   }

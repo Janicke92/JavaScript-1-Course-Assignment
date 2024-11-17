@@ -101,7 +101,7 @@
     }
 
     .products a {
-    font-size: 1.7em;
+    font-size: 1em;
     margin: 20px 20px 0px 10px
     }
 
@@ -180,6 +180,8 @@
 
     .cta_checkout {
     margin: 0px 100px;
+    font-weight: 600;
+    font-size: 1em;
     }
 
     .checkout-success {
@@ -217,5 +219,11 @@
 
     #about_headline {
     margin-right: 300px;
+    }
+
+    .remove-item-button {
+        font-size: 1em;
+        font-weight: 300;
+        margin: 0px;
     }
 }
